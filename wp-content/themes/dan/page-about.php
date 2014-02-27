@@ -11,13 +11,13 @@ Template Name: Page-About
 		<h2>Experience</h2>
 		<div class="about-subsection">
 			<h3>Trunk Club</h3>
-			<h4>Product Designer</h4>
-			<p>Product designer and developer for the customer acquisition team, focusing on all client-facing products including the Trunk Club website and iOS app. Prototype, test, and analyze user-experiences. Design and develop user-interfaces.</p>
+			<h4>Product Design Lead</h4>
+			<p>Designing the vision and experience for Trunk Club members, focusing on a mobile first, data-driven strategy. Prototype, test, and analyze user experiences. Conduct user research and interviews. Design and develop the mobile and desktop interfaces.</p>
 		</div>
 		<div class="about-subsection">
 			<h3>Made Movement</h3>
 			<h4>Designer and Developer</h4>
-			<p>Designed and developed prototypes, user-experiences, and interfaces for client projects, campaigns, websites and mobile apps.</p>
+			<p>Helped launch the ad agency and build out the digital team. Designed and developed prototypes, user-experiences, and interfaces for client projects, campaigns, websites and mobile apps.</p>
 			<p>Clients: New Belgium Brewing, Seventh Generation, Repair.com, Fred Water</p>
 		</div>
 		<div class="about-subsection">
@@ -35,21 +35,6 @@ Template Name: Page-About
 				<p>Designed and developed web campaigns for bands and musicians.</p>
 			</div>
 		</div>
-		<div class="about-subsection">
-			<h3>Boulder Digital Works</h3>
-			<h4>Graduate Student</h4>
-			<p>Took courses in interaction and user experience design, branding, front-end and back-end development, strategy, and start-up management.</p>
-		</div>
-		<!--<div class="about-subsection">
-			<h3>Chicago Portfolio School</h3>
-			<h4>Creative Technologist</h4>
-			<p>Designed and developed digital marketing resources. Developed and produced the CPS website. Taught creative and development classes.</p>
-		</div>
-		<div class="about-subsection">
-			<h3>Apple</h3>
-			<h4>Specialist</h4>
-			<p>Performed hardware and software technical support. Conducted small and large group training on various creative programs.</p>
-		</div>-->
 	</div>
 	<div id="skills" class="about-section">
 		<h2>Skills</h2>
