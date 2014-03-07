@@ -12,7 +12,7 @@
 	<header>
 		<div class="wrapper">
 			<nav>
-				<h1 id="logo"><a href="/">Dan Nelson | Designer and Developer</a></h1>
+				<h1 id="logo"><a href="/">Dan Nelson | Product Designer</a></h1>
 				<ul id="nav-links">
 					<li class="projects"><a href="/projects">Projects</a></li>
 					<li class="prototypes"><a href="/prototypes">Prototypes</a></li>

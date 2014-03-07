@@ -1,8 +1,8 @@
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 			<section id="about-dan">
-				<h1>Dan Nelson. Designer &amp; Developer.</h1>
-				<p class="intro-paragraph">I'm an experience and interface designer and front-end developer. I currently work at Trunk Club as a Product Designer.</p>
+				<h1>Dan Nelson. Product Designer.</h1>
+				<p class="intro-paragraph">I'm a designer focused on building smart user experiences and interfaces. I currently work at Trunk Club as a Product Design Lead.</p>
 			</section>
 			
 			<section id="featured-projects" class="work-grid">

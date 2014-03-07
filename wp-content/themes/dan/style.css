@@ -242,10 +242,11 @@ h5 {
   letter-spacing: 1px;
 }
 p {
-  font-family: 'pt-serif-1', 'pt-serif-2', georgia, 'times-new-roman', serif;
+  font-family: 'Futura Demi', helvetica, arial, sans-serif;
   line-height: 24px;
   letter-spacing: 1px;
   margin-bottom: 18px;
+  color: #999;
 }
 .intro-paragraph,
 .intro-paragraph p {
@@ -840,7 +841,7 @@ ABOUT PAGE
   color: #00aeff;
 }
 #about h4 {
-  color: #CCC;
+  color: #444;
   margin-bottom: 2px;
 }
 .about-section {

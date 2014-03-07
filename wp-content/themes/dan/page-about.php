@@ -12,7 +12,7 @@ Template Name: Page-About
 		<div class="about-subsection">
 			<h3>Trunk Club</h3>
 			<h4>Product Design Lead</h4>
-			<p>Designing the vision and experience for Trunk Club members, focusing on a mobile first, data-driven strategy. Prototype, test, and analyze user experiences. Conduct user research and interviews. Design and develop the mobile and desktop interfaces.</p>
+			<p>Designing the vision for Trunk Club members, focusing on a highly personalized, mobile first experience. Prototype, test, and analyze user experiences. Conduct user research and interviews. Design and develop the mobile and desktop interfaces.</p>
 		</div>
 		<div class="about-subsection">
 			<h3>Made Movement</h3>
