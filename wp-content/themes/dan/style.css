@@ -245,14 +245,14 @@ p {
   font-family: 'Futura Demi', helvetica, arial, sans-serif;
   line-height: 24px;
   letter-spacing: 1px;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   color: #999;
 }
 .intro-paragraph,
 .intro-paragraph p {
   color: #999;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 24px;
+  line-height: 32px;
   font-family: 'Futura Demi';
   letter-spacing: 2px;
 }
@@ -261,7 +261,8 @@ li p {
   margin-bottom: 0;
 }
 a {
-  color: inherit;
+  color: #00aeff;
+  text-decoration: none;
   transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -ms-transition: all 0.1s ease-in-out;
@@ -275,8 +276,8 @@ a:hover {
 LAYOUT
 -------------------------------------------------------------------------*/
 #content-container {
-  margin: 70px 24px 12px;
-  padding: 24px 48px;
+  margin: 24px 24px 12px;
+  padding: 24px 72px;
   background: white;
   min-width: 272px;
   -webkit-box-sizing: border-box;
@@ -293,9 +294,7 @@ LAYOUT
   clear: both;
 }
 .wrapper {
-  /*max-width: 1048px;*/
-
-  max-width: 1061px;
+  max-width: 1000px;
   padding: 0 24px;
   margin: 0 auto;
   *zoom: 1;
@@ -336,7 +335,7 @@ nav {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   height: 27px;
   letter-spacing: 2px;
 }
@@ -369,7 +368,7 @@ nav {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 46px;
   text-indent: -999em;
   height: 46px;
@@ -458,7 +457,7 @@ nav {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   height: 27px;
   letter-spacing: 2px;
 }
@@ -488,40 +487,30 @@ nav {
   width: 100%;
 }
 #mobile-menu a {
-  padding: 14px 0;
+  padding: 24px 0;
   display: block;
   font-family: 'Futura Demi';
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 12px;
   letter-spacing: 2px;
   text-align: center;
 }
 #logo {
   float: left;
-  margin: 0 0 0 -12px;
-}
-#logo a {
   text-indent: -999em;
-  width: 43px;
-  height: 46px;
-  padding: 0 12px;
-  float: left;
   position: relative;
 }
-#logo a:before {
+#logo:before {
   content: "";
   position: absolute;
-  left: 12px;
-  top: 8px;
+  left: 0;
+  top: 0;
   width: 43px;
   height: 30px;
-  background-image: url(images/dan-nelson-logo.svg);
+  background-image: url(images/footer-logo.svg);
   background-repeat: no-repeat;
-}
-#logo:hover {
-  background-color: #009de6;
 }
 /*-------------------------------------------------------------------------
 FOOTER
@@ -580,10 +569,10 @@ footer li a:hover {
 HOME PAGE
 -------------------------------------------------------------------------*/
 #about-dan {
-  text-align: center;
+  text-align: left;
+  padding: 24px 0;
 }
 #about-dan .intro-paragraph {
-  padding: 0 36px;
   max-width: 100%;
 }
 #featured-projects {
@@ -1114,87 +1103,7 @@ FANCY BOX
 /* ---------------------------------------------------------------------------------------------------------- 
 MEDIA QUERIES
 ---------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width: 948px) {
-  #content-container {
-    padding: 24px 48px 72px;
-  }
-  #about-dan .intro-paragraph {
-    padding: 0;
-  }
-  .work-grid {
-    margin-bottom: 0;
-  }
-  .work-grid ul {
-    margin: 0 -2%;
-  }
-  .work-grid li {
-    width: 46% ;
-    margin: 24px 2% 0;
-  }
-  #skills-list {
-    margin: 35px -2% 31px;
-    *zoom: 1;
-  }
-  #skills-list:before,
-  #skills-list:after {
-    content: "";
-    display: table;
-  }
-  #skills-list:after {
-    clear: both;
-  }
-  .skill-list {
-    width: 29.333333333%;
-    margin: 36px 2% 0;
-    float: left;
-  }
-  #featured-projects {
-    margin-bottom: 36px;
-  }
-  #image-container {
-    width: 98%;
-    margin-top: 36px;
-  }
-  #work-content {
-    margin-bottom: 24px;
-  }
-  #work-description {
-    width: 98%;
-  }
-  #experience,
-  #education,
-  #skills,
-  #awards {
-    width: 100%;
-    margin: 0;
-  }
-}
-@media screen and (max-width: 748px) {
-  #skills-list {
-    margin: 22px -2% 36px;
-    *zoom: 1;
-  }
-  #skills-list:before,
-  #skills-list:after {
-    content: "";
-    display: table;
-  }
-  #skills-list:after {
-    clear: both;
-  }
-  .design-skills,
-  .dev-skills {
-    width: 44%;
-    margin: 36px 2% 0;
-    float: left;
-  }
-  .client-list {
-    width: 84%;
-    margin: 36px 8% 0;
-    float: left;
-  }
-}
-@media screen and (max-width: 548px) {
+@media screen and (max-width: 768px) {
   #content-container {
     padding: 24px 0;
   }
@@ -1207,6 +1116,9 @@ MEDIA QUERIES
   }
   header #open-menu-link {
     display: block;
+  }
+  #about-dan {
+    padding: 0 24px;
   }
   .work-grid {
     margin-bottom: 0;
@@ -1284,9 +1196,9 @@ MEDIA QUERIES
     float: left;
   }
 }
-@media screen and (max-width: 448px) {
+@media screen and (max-width: 420px) {
   #content-container {
-    margin: 58px 12px 12px;
+    margin: 12px 12px;
   }
   header .wrapper {
     padding: 0 12px;

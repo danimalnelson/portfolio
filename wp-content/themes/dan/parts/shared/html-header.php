@@ -11,12 +11,12 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Dan is a designer focused on building smart user experiences. Dan currently works at Trunk Club as a Product Design Lead."/>
+	<meta name="description" content="Dan builds customer-facing products in Chicago. Currently at Trunk Club as Lead Product Designer."/>
 	<meta property="og:title" content="Danimal Nelson"/>
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="http://www.danimalnelson.com"/>
   <meta property="og:site_name" content="Danimal Nelson"/>
-  <meta property="og:description" content="Dan is a designer focused on building smart user experiences. Dan currently works at Trunk Club as a Product Design Lead."/>
+  <meta property="og:description" content="Dan builds customer-facing products in Chicago. Currently at Trunk Club as Lead Product Designer."/>
 	<meta property="og:image" content="https://twimg0-a.akamaihd.net/profile_images/1774747295/twitter.jpg"/>
 	
 	<!-- CSS -->

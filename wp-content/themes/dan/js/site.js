@@ -15,8 +15,14 @@ $(document).ready(function($) {
 	//SET CONTAINER HEIGHT
 	function setContainerHeight() {
 		var windowHeight = $(window).height();
-		var containerHeight = windowHeight - 148;
-		$('#content-container').css('min-height', containerHeight + 'px')
+		var windowWidth = $(window).width();
+		var containerHeight = windowHeight - 48;
+		var mobileHeight = windowHeight - 25;
+		if (windowWidth <= 420) {
+			$('#content-container').css('min-height', mobileHeight + 'px');
+		} else {
+			$('#content-container').css('min-height', containerHeight + 'px');
+		}
 	};
 	
 	//RUN FUNCTIONS
