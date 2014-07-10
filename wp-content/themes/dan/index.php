@@ -2,7 +2,7 @@
 
 			<section id="about-dan">
 				<h1>Dan Nelson. Product Designer.</h1>
-				<p class="intro-paragraph">I'm a designer focused on building smart user experiences and interfaces. I currently work at Trunk Club as a Product Design Lead.</p>
+				<p class="intro-paragraph">I'm a designer focused on building customer-facing products. I currently work at Trunk Club as a Product Design Lead.</p>
 			</section>
 			
 			<section id="featured-projects" class="work-grid">
@@ -32,7 +32,7 @@
 				<div class="dev-skills skill-list">
 					<h3>Dev Skills</h3>
 					<ul>
-						<li><p>HTML, CSS, jQuery</p></li>
+						<li><p>HTML, CSS, jQuery,</p></li>
 						<li><p>Sass, Less, Git,</p></li>
 						<li><p>Rails, Backbone.js</p></li>
 					</ul>

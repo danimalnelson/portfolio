@@ -17,22 +17,22 @@ Template Name: Page-About
 		<div class="about-subsection">
 			<h3>Made Movement</h3>
 			<h4>Designer and Developer</h4>
-			<p>Helped launch the ad agency and build out the digital team. Designed and developed prototypes, user-experiences, and interfaces for client projects, campaigns, websites and mobile apps.</p>
-			<p>Clients: New Belgium Brewing, Seventh Generation, Repair.com, Fred Water</p>
+			<p>Helped launch the ad agency and build out the digital team. Designed and developed prototypes, user-experiences, and product interfaces for client projects, websites and mobile apps.</p>
+			<p>Clients: New Belgium Brewing, Seventh Generation</p>
 		</div>
 		<div class="about-subsection">
 			<h3>Freelance</h3>
 			<div class="freelance-client">
 				<h4>Designer, Recurly</h4>
-				<p>Designed user-experiences for their product interface.</p>
+				<p>Designed user-experiences for their customer-facing product interface.</p>
 			</div>
 			<div class="freelance-client">
 				<h4>Designer, Contently</h4>
-				<p>Explored an alternative user-interface for their website.</p>
+				<p>Explored alternative user-interfaces for their website.</p>
 			</div>
 			<div class="freelance-client">
 				<h4>Designer, Eyes and Ears</h4>
-				<p>Designed and developed web campaigns for bands and musicians.</p>
+				<p>Designed and developed digital campaigns for global bands and musicians.</p>
 			</div>
 		</div>
 	</div>
@@ -49,9 +49,9 @@ Template Name: Page-About
 		<div class="about-subsection">
 			<h3>Dev Skills</h3>
 			<ul class="about-list">
-				<li><p>HTML, CSS, jQuery</p></li>
-				<li><p>Sass, LESS</p></li>
-				<li><p>Git, Command Line</p></li>
+				<li><p>HTML, CSS, jQuery,</p></li>
+				<li><p>Sass, Less, Git,</p></li>
+				<li><p>Rails, Backbone.js</p></li>
 			</ul>
 		</div>
 	</div>
