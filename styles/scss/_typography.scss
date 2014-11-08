@@ -1,0 +1,52 @@
+body {
+	color: #000;
+	font-weight: normal;
+}
+
+h1 {
+	background-image: url(../images/logo.png);
+	background-size: 60px 43px;
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 43px;
+	text-indent: -999em;
+	margin: 0 auto 46px;
+}
+
+h2 {
+	font-family: Baskerville;
+	font-size: 22px;
+	font-style: italic;
+	margin-bottom: 14px;
+}
+
+h3 {
+	font-family: DIN;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+h4 {
+	font-family: Baskerville;
+	font-size: 16px;
+	font-style: italic;
+	margin-bottom: 6px;
+}
+
+p {
+	font-family: DIN;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+a {
+	text-decoration: underline;
+	color: #000;
+}
+
+.font-bold {
+	font-weight: bold;
+}
