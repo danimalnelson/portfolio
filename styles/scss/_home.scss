@@ -5,8 +5,15 @@ section {
 	box-sizing: border-box;
 	text-align: center;
 	margin: 0 auto;
+	position: relative;
 }
 
 .section-group {
 	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 540px) {
+	section {
+		padding: 60px 20px 20px;
+	}
 }
