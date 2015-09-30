@@ -1,19 +1,22 @@
-section {
-	width: 100%;
-	padding: 60px;
-	max-width: 600px;
-	box-sizing: border-box;
-	text-align: center;
-	margin: 0 auto;
-	position: relative;
+body {
+  background: #FFFFFF;
 }
 
-.section-group {
-	margin-bottom: 30px;
-}
-
-@media screen and (max-width: 540px) {
-	section {
-		padding: 60px 20px 20px;
-	}
+.logo {
+  background: url(../images/logo.svg);
+  background-size: 200px 141px;
+  width: 200px;
+  height: 141px;
+  text-indent: -999em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0.9;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+       -o-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
 }
